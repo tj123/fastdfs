@@ -125,8 +125,6 @@ DESTDIR=$RPM_BUILD_ROOT ./make.sh install
 /usr/bin/fdfs_appender_test1
 /usr/bin/fdfs_append_file
 /usr/bin/fdfs_upload_appender
-/etc/fdfs/http.conf.sample
-/etc/fdfs/mime.types.sample
 
 %changelog
 * Mon Jun 23 2014  Zaixue Liao <liaozaixue@yongche.com>
