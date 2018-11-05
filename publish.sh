@@ -1,14 +1,11 @@
-#!/bin/env bash
-
-
-
+#!/usr/bin/env bash
 
 rpm_dir=~/rpmbuild/RPMS/x86_64
 
 pb_username=admin
-pb_password=admin123
-pb_server=http://192.168.0.80/repository/yum-hosted
-pb_url=7/os/x86_64/Packages
+pb_password=RPM_REPO_PASSWORD
+pb_server=http://10.20.5.60:8081/repository/centos-nexus
+pb_url=7/nexus/x86_64/Packages
 
 
 # $1 文件名
